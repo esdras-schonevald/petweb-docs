@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdocumentor
+        configVersion="3"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="https://www.phpdoc.org"
+>
+    <title>PetWeb Docs</title>
+    <paths>
+        <output>docs</output>
+    </paths>
+
+    <version number="3.0.0">
+
+        <api format="php">
+            <source dsn="/src">
+                <path>phprise/routing/src</path>
+                <path>petweb-api/src</path>
+                <path>petweb-app/src</path>
+            </source>
+
+            <extensions>
+                <extension>php</extension>
+            </extensions>
+        </api>
+<!--        <api format="php">
+            <source dsn="/home/esdras/petweb-api">
+                <path>src</path>
+            </source>
+
+            <output>api</output>
+
+            <extensions>
+                <extension>php</extension>
+            </extensions>
+
+            <default-package-name>Petweb\BackEnd</default-package-name>
+        </api>
+        <api format="php">
+            <source dsn="/src/petweb-app">
+                <path>src</path>
+            </source>
+
+            <output>app</output>
+
+            <extensions>
+                <extension>php</extension>
+            </extensions>
+
+            <default-package-name>Petweb\FrontEnd</default-package-name>
+        </api>
+    -->
+    </version>
+
+    <setting name="graphs.enable" value="true"/>
+
+</phpdocumentor>
