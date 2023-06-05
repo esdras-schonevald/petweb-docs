@@ -1,0 +1,4 @@
+.phpdoc/
+var/
+
+phpdoc.dist.xml
